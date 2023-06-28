@@ -39,8 +39,8 @@ export function Dapp() {
   return (
     <div className="main-container">
       <div className="wallets-container">
-        {WALLETS.map((providerName) => (
-          <ExternalWallet providerName={providerName} />
+        {WALLETS.map((providerName, index) => (
+          <ExternalWallet providerName={providerName} key={index} />
         ))}
       </div>
       <Widget config={widgetConfig} />

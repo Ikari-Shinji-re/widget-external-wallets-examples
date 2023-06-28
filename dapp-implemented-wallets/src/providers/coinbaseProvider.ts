@@ -1,3 +1,4 @@
+import { ProviderInterface } from "@rango-dev/widget-embedded";
 import {
   config,
   getInstance,
@@ -8,7 +9,6 @@ import {
   getSigners,
   getWalletInfo,
 } from "@rango-dev/provider-coinbase";
-import { ProviderInterface } from "@rango-dev/wallets-core";
 
 export const coinbaseProvider: ProviderInterface = {
   config,

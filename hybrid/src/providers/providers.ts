@@ -1,4 +1,4 @@
-import { ProviderInterface } from "@rango-dev/wallets-core";
+import {ProviderInterface} from '@rango-dev/widget-embedded'
 import { metamaskProvider } from "./metamaskProvider";
 
 export const providers: (ProviderInterface | string)[] = [

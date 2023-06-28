@@ -3061,7 +3061,7 @@
     "@rango-dev/wallets-shared" "^0.5.1-next.14"
     rango-types "^0.1.44"
 
-"@rango-dev/provider-metamask@^0.5.1-next.13":
+"@rango-dev/provider-metamask@^0.5.1-next.13", "@rango-dev/provider-metamask@^0.5.1-next.14":
   version "0.5.1-next.14"
   resolved "https://registry.yarnpkg.com/@rango-dev/provider-metamask/-/provider-metamask-0.5.1-next.14.tgz#c1b3a5088a90bc4a786eb94e5f1fd582c78b790e"
   integrity sha512-BmagwMuyMXJiyYw9CuESkoSpVotprENz8qT3Sw0RLmoG4VNqnzupPN9zCQxJjrno5zBz5WFp1ElMCU3syD45bg==
@@ -3276,10 +3276,10 @@
   dependencies:
     rango-types "^0.1.44"
 
-"@rango-dev/widget-embedded@0.5.1-next.16":
-  version "0.5.1-next.16"
-  resolved "https://registry.yarnpkg.com/@rango-dev/widget-embedded/-/widget-embedded-0.5.1-next.16.tgz#8eafbb75b69fc6df1b113c6037357da62c870ff5"
-  integrity sha512-UjC2mtJla1f96IJAi4JdHlQ27fKDghDQOEHMjVvKLkEn2/JMjo6uLDzXqu831sr3Ub2zudkXkuCYhkvy8bIVUg==
+"@rango-dev/widget-embedded@^0.5.1-next.17":
+  version "0.5.1-next.17"
+  resolved "https://registry.yarnpkg.com/@rango-dev/widget-embedded/-/widget-embedded-0.5.1-next.17.tgz#933a442617426eac61780a0b27345db02437c968"
+  integrity sha512-K8qAPYYwqb6O+YprAn1eJM3sqOWpwbq/j1bO+PGLaAaA/xGXoYHX5OwYaVKdAndOif6o8VDhn3IhibpnO60HXQ==
   dependencies:
     "@rango-dev/provider-all" "^0.5.1-next.9"
     "@rango-dev/queue-manager-core" "^0.5.1-next.1"

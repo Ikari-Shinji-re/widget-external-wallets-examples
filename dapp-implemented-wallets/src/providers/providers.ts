@@ -1,4 +1,4 @@
-import { ProviderInterface } from "@rango-dev/wallets-core";
+import { ProviderInterface } from "@rango-dev/widget-embedded";
 import { coinbaseProvider } from "./coinbaseProvider";
 import { metamaskProvider } from "./metamaskProvider";
 

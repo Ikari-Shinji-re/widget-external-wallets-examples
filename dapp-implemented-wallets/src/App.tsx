@@ -1,12 +1,11 @@
 import { useCallback } from "react";
-import { WidgetWallets } from "@rango-dev/widget-embedded";
-import { EventHandler } from "@rango-dev/wallets-core";
+import { HandleWalletsUpdate, WidgetWallets } from "@rango-dev/widget-embedded";
 import { Dapp } from "./Dapp";
 import { providers } from "./providers";
 import "./styles.css";
 
 export default function App() {
-  const handleUpdate = useCallback<EventHandler>(
+  const handleUpdate = useCallback<HandleWalletsUpdate>(
     (providerName, eventType, accounts, providerState, supportedChains) => {
       console.log({
         providerName,
