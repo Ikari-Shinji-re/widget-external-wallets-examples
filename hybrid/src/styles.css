@@ -1,0 +1,38 @@
+#app {
+  height: 100vh;
+}
+
+body {
+  margin: 50px 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.external-wallet {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  background-color: #5fa425;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.external-wallet:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+.wallets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}

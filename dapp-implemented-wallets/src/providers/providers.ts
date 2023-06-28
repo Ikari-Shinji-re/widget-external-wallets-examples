@@ -1,5 +1,5 @@
 import { ProviderInterface } from "@rango-dev/wallets-core";
-import { coinbaseProvider } from "./coinbaseProviders";
+import { coinbaseProvider } from "./coinbaseProvider";
 import { metamaskProvider } from "./metamaskProvider";
 
 /*
