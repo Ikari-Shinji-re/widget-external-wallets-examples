@@ -6,10 +6,14 @@ function ExternalWallet({ providerName }) {
   const { state, connect, disconnect } = useWallets();
   const providerState = state(providerName);
   const handleClick = useCallback(() => {
-    if (providerState.connected) {
-      disconnect(providerName);
-    } else {
-      connect(providerName);
+    try {
+      if (providerState.connected) {
+        disconnect(providerName);
+      } else {
+        connect(providerName);
+      }
+    } catch (error) {
+      console.error(error);
     }
   }, [providerName, providerState, connect, disconnect]);
   return (
