@@ -6,16 +6,15 @@ function ExternalWallet({ providerName }) {
   const { state, connect, disconnect } = useWallets();
   const providerState = state(providerName);
   const handleClick = useCallback(() => {
-    const providerState = state(providerName);
     if (providerState.connected) {
       disconnect(providerName);
     } else {
       connect(providerName);
     }
-  }, [providerName, state, connect, disconnect]);
+  }, [providerName, providerState, connect, disconnect]);
   return (
     <button
-      disabled={!state(providerName).installed}
+      disabled={!providerState.installed}
       className="external-wallet"
       onClick={handleClick}
     >
